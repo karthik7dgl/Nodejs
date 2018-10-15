@@ -4,4 +4,5 @@
  git pull origin master  
  npm install 
  npm start
+ exit
    
