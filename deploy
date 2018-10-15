@@ -1,0 +1,7 @@
+#!/bin/sh     
+ssh nivetha@http://210.210.127.204/       
+ cd /var/lib/jenkins/workspace
+ git pull      
+ npm install 
+ pm2 restart all
+ exit      
