@@ -4,4 +4,3 @@ sh shutdown.sh
 cd /var/lib/jenkins/workspace/
 cp NodePro /home/nivetha/apache-tomcat-7.0.6/webapps
 sh startup.sh 
-
