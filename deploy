@@ -2,11 +2,6 @@
        
  cd /var/lib/jenkins/workspace/NodePro/
  git pull origin master  
-cd /home/nivetha/apache-tomcat-7.0.6/bin/
-sh shutdown.sh     
-cd /var/lib/jenkins/workspace/
-cp -r NodePro /home/nivetha/apache-tomcat-7.0.6/webapps
-sh startup.sh 
  npm install 
  npm start
    
