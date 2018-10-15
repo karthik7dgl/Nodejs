@@ -1,5 +1,5 @@
 #!/bin/sh 
-ssh -t  nivetha@http://210.210.127.204
+ssh -t -t nivetha@http://210.210.127.204
 cd /home/nivetha/apache-tomcat-7.0.6/bin/
 sh shutdown.sh     
 cd /var/lib/jenkins/workspace/
