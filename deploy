@@ -1,7 +1,7 @@
 #!/bin/sh     
  ssh nivetha@http://210.210.127.204       
  cd /var/lib/jenkins/workspace/NodePro/
- git pull      
+ git pull origin master  
  npm install 
  npm start
    
