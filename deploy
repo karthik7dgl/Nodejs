@@ -1,7 +1,7 @@
 #!/bin/sh     
        
  cd /var/lib/jenkins/workspace/NodePro/
- git pull origin master  
+ git pull 
  npm install 
  npm start
  exit
