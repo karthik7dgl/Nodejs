@@ -1,6 +1,6 @@
 #!/bin/sh 
 cd /home/nivetha/apache-tomcat-7.0.6/bin/
-sh shutdown.sh     
+./shutdown.sh    
 cd /var/lib/jenkins/workspace/
 cp  -r NodePro /home/nivetha/apache-tomcat-7.0.6/webapps
-sh startup.sh 
+./startup.sh
