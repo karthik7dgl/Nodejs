@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hi Welcome to Node js with Auto deployement Tool Using Jenknins !!!!!!");
+    response.end("Hi js with Auto deployement Tool Using Jenknins !!!!!!");
 
 });
 
